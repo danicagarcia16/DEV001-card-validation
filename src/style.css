@@ -129,8 +129,12 @@ p {
 }
 h1 {
     text-align:center;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: verdana, sans-serif;
+    font-weight: bold;
     color:#DE4525;
-    font-family: sans-serif;
+    text-shadow: 1px 1px 1px #919191;
   }
 
 
@@ -199,4 +203,18 @@ margin-left: 15px;
 }
 button{
 margin-left: 15px;
+}
+p{
+text-align:left;
+}
+.banco{
+text-align:left;
+}
+.segura{
+font-size: 1em;
+text-transform: uppercase;
+font-family: verdana, sans-serif;
+font-weight: bold;
+color:#DE4525;
+text-shadow: 1px 1px 1px #919191;
 }

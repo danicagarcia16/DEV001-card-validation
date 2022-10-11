@@ -26,15 +26,6 @@ const tarjeta= document.querySelector("#tarjeta");
  tarjeta.classList.toggle("active");
 });
 
-const numerotarjeta= document.querySelector("#tarjeta.numerodetarjeta");
-const nombretarjeta= document.querySelector("#tarjeta.nombredetarjeta");
-
-númerodetarjeta.addEventListener("keyup",(e)=>{
-let  valortarjeta= e.target.value;
-
-numerotarjeta.textContent= valortarjeta;
-});
-
 
 
 
