@@ -1,0 +1,220 @@
+.contenido1{
+width: 90%;
+max-width: 1000px;
+padding: 50px 30px;
+margin: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+} 
+.tarjeta{
+width:100%;
+max-width: 550px;
+position: relative;
+background-size: contain;
+transition:.3s ease all;
+transform: rotateY(0deg);
+transform-style: preserve-3d;
+backface-visibility: hidden;
+cursor: pointer;
+z-index:2;
+}
+.tarjeta.active {
+    transform: rotatey(180deg);
+}
+
+.delantera{
+padding: 50px;
+background:url(img/fondo.jpg);
+margin: 10px;
+    border-radius: 15px;
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 10px 10px 0 rgba(90, 116, 148, 0.3)
+    ;
+
+ }
+ .logo{
+	text-align: right;
+	min-height: 50px;
+}
+.logo img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	max-width: 100px;
+}
+
+ .expiracion{
+    color: #fff;
+    font-size:22px ;
+    text-transform: uppercase;
+    }
+    .numero{
+        color: #fff;
+        font-size:22px ;
+        text-transform: uppercase;
+        }
+    .nombre{
+        color: #fff;
+        font-size:22px ;
+        text-transform: uppercase;
+        }
+    
+    
+    
+    /*.delantera.logo{
+    text-align:right;
+    min-height: 50px;
+    
+    }
+    .delantera.logo img {
+        width: 20% ;
+        height: 20%;
+        max-width: 80 px;
+    }*/
+    .label{
+    font-size: 16px;
+    color: #7d8994;
+    margin-bottom: 5px;
+    }
+    
+    .flexbox{
+    display: flex;
+    justify-content: space-between;
+    }
+ .trasera{
+padding: 50px;
+background:url(img/fondo.jpg);
+position: absolute;
+top:0;
+transform: rotateY(180deg);
+backface-visibility: hidden;
+margin: 10px;
+border-radius: 15px;
+min-height: 220px;
+max-width: 450px;
+margin: 10px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+box-shadow: 0 10px 10px 0 rgba(90, 116, 148, 0.3);
+}
+     .cvv{
+    line-height: 24px;
+    justify-content: end;
+     }
+    #cvv{
+    width: 30px;
+    background: #fff;
+    height: 20px;
+    color:black;
+    padding: 15px;
+    text-align: center;
+ }
+.leyenda{
+    
+    line-height: 24px;
+}
+.link-banco{
+    font-size: 14px;
+    color:#fff;
+    }
+
+p {
+    font-family: sans-serif;
+
+}
+h1 {
+    text-align:center;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: verdana, sans-serif;
+    font-weight: bold;
+    color:#DE4525;
+    text-shadow: 1px 1px 1px #919191;
+  }
+
+
+input {
+    margin-top: 0.5rem;
+}
+input:placeholder {
+opacity: .5;
+}
+.formulario{
+background:#F7F1EF;
+width: 100%;
+max-width: 700px;
+padding:150px 30px 30px 30px;
+border-radius: 10px;
+position: relative;
+top:-140px;
+}
+label{
+    display: block;
+    color:#7d8994;
+    margin-bottom: 5px;
+    font-size: 16px;}
+input{
+border:2px solid #CED6E0;
+font-size: 18px;
+height: 50px;
+width: 100%;
+padding: 5px 4px;
+transition: .3s ease all;
+border-radius: 5px;
+margin-bottom: 20px;
+}
+button{
+        border:2px solid #CED6E0;
+        background-color:#DE4525;
+        color:#fff;
+        font-size: 18px;
+        justify-content: center;
+        height: 65px;
+        width: 80%;
+        padding: 8px 12px;
+        transition: .3s ease all;
+        border-radius: 5px;
+        display:block;
+        margin-top: 30px ;
+}
+
+input:hover{
+border: 2px solid #93BDED;
+}
+input:focus {
+outline: rgba(4, 4, 4,);
+box-shadow: 1px 7px 10px -5px rgba(90, 116, 148, 0.3);
+}
+.flexbox1{
+display: flex;
+justify-content: space-between;
+}
+.Expira{
+width: 100%;
+}
+.CVV{
+width:100%;
+margin-left: 15px;
+}
+button{
+margin-left: 15px;
+}
+p{
+text-align:left;
+}
+.banco{
+text-align:left;
+}
+.segura{
+font-size: 1em;
+text-transform: uppercase;
+font-family: verdana, sans-serif;
+font-weight: bold;
+color:#DE4525;
+text-shadow: 1px 1px 1px #919191;
+}

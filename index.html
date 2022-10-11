@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+   
+    <main>
+      <h1>Valida tu Tarjeta de Credito</h1>
+      <p>Esta página te ayudará a validar tu tarjeta antes de realizar una compra y puedas usarla para pagos en línea.</p>
+      <p>La aplicación no almacena ningún dato ingresado , lo cual significa que toda la validación se ejecuta en su dispositivo, Usted puede desconectar su internet y la aplicación continuará funcionando.</p>
+      <p class="segura"> ¡100% segura!</p>
+      <p class="banco">#tubancodeconfianza</p>
+
+
+      <div class="contenido1">
+        <section class=" tarjeta" id="tarjeta">
+         <div class="delantera">
+        <div class="logo">
+          <img src="img/visa.png" alt="">
+        </div>
+           <div class= "datosuno">
+       <div class="datos" id="numerodetarjeta">
+       <p class="label">Número de tarjeta</p>
+       <p class="numero"> #### #### #### ####</p>
+       </div>
+  <div class="flexbox">
+    <div class="datos" id="nombredetarjeta">
+   <p class="label">Nombre de la tarjeta</p>
+  <p class="nombre"> Jhon Doe</p>
+</div>
+<div class=" datos" id="vencimiento">
+  <p class= "label"> Vencimiento</p>
+  <p class="expiracion"><span class="mes">MM</span>/<span class="year">AA</span></p></div>
+</div>
+</div>
+</div>
+
+<div class="trasera">
+<div class="datosuno">
+<div class="datos" id="cvv">
+  <p class="label">ccv</p>
+  <p class="ccv"></p>
+</div>
+<p class="leyenda">Esta tarjeta ha sido emitida y debera ser devuelta cuando este lo solicte.Esta tarjeta es intrasferible y su uso se rige por las estipulaciones del contrato firmado entre el titular y el banco.</p>
+<a href="#" class="link-banco">www.tubanco.com</a>
+</div>
+</div>
+</section>
+
+<form action="" id="formulario" class="formulario">
+<div class = "Tajeta1">
+  <label for="numerodetarjeta">Número de Tarjeta</label>
+  <input type="text" id="númerodetarjeta" name="tarjeta" placeholder="Ingrese Número de Tarjeta" size="20" maxlength="16" autocomplete="off"><br></div>
+  <div class="Tarjeta3">
+  <label for="nombredelatarjeta">Nombre de la tarjeta</label>
+  <input type="text" id="nombredelatarjeta" name="nombre" placeholder="Ingrese Nombre de la tarjeta" size="20"><br>
+  </div>
+  <div class="flexbox1">
+<div class = "Expira">
+  <label for="selectMes">Vencimiento</label>
+  <input type="string" id="fecha" name="fecha" placeholder="05/26" size="8"><br></div>
+<div class ="CVV">
+  <label for="inputCVV">cvv</label>
+  <input type="string" id="cvc" name="cvc" placeholder="CVC" size="9" maxlength="3"><br></div>
+  <button id="validar">Validar</button>
+ </div>
+  
+</form>
+</div>
+</main>
+    
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
