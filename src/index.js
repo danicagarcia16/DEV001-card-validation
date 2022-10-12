@@ -3,7 +3,9 @@ let cartNumber;
 const enmascarar= document.getElementById("númerodetarjeta");
 const validar= document.getElementById("validar");
 console.log(validar)
-validar.addEventListener( "click", function(){
+validar.addEventListener( "click", function(e){
+    e.preventDefault()
+    e.stopPropagation()
 cartNumber=enmascarar.value
 enmascarar.value=validator.maskify(enmascarar.value)
 console.log(cartNumber)
